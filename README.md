@@ -37,6 +37,7 @@ cmake -G "NMake Makefiles" ..
 nmake
 ```
 It will take a while to build all the examples.
+
 4) *(optional)* After that, you can look for `.uf2` files for each example subdirectory, plug your Pico to the serial with `BOOTSEL` pressed down and test some of them.
 
 ## Configuring Visual Studio Code:
