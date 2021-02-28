@@ -23,8 +23,8 @@ The .uf2 file can be dragged into the USB storage drive letter that appears when
 
 * _Pico Setup Installer_:
 1) Download and run its latest release from https://github.com/ndabas/pico-setup-windows/releases. It will install everything you need.
-2) Go to the folder where you installed it and run the script `pico_env.py` and `pico_setup.py`, just by double clicking on them;
-3) You can now go to the [CMakeLists.txt] file in this repo and adjust the `PICO_SDK_PATH` for your case.
+2) Go to the folder where you installed it and run the script `pico_env.py` and `pico_setup.py`, just by double clicking on them.
+3) You can now go to the `CMakeLists.txt` file in this repo and adjust the `PICO_SDK_PATH` for your case.
 
 * _Testing compilation_:
 1) Open the *Developer Command Prompt for VS 2019*.
