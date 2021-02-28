@@ -23,12 +23,12 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(twoCores twoCores.cpp )
+add_executable(twoCores twoCores.cpp)
 
 pico_set_program_name(twoCores "twoCores")
 pico_set_program_version(twoCores "0.1")
 
-pico_enable_stdio_uart(twoCores 1)
+pico_enable_stdio_uart(twoCores 0)
 pico_enable_stdio_usb(twoCores 1)
 
 # Add the standard library to the build
@@ -37,7 +37,7 @@ target_link_libraries(twoCores
         pico_unique_id
         hardware_pio
         hardware_adc
+        pico_multicore
 )
 
 pico_add_extra_outputs(twoCores)
-
